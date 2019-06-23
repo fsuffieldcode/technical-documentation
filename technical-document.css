@@ -1,0 +1,30 @@
+@media (min-width:961px)  {
+	#navbar {
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		padding-top: 20px;
+    background-color: grey;
+	}
+}
+
+
+#nav-link-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em;
+  font-family: 'PT Sans', sans-serif;
+}
+
+main {
+  position: absolute;
+  left: 15%;
+  width: 80%;
+  padding: 2em;
+  font-family: 'PT Sans', sans-serif;
+}
+

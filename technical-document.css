@@ -1,30 +1,88 @@
+html,
+body {
+  background-color: #e3e2df;
+  font-family: 'Karla', sans-serif;
+  font-size: 19px;
+}
+
 @media (min-width:961px)  {
 	#navbar {
 		height: 100%;
-		width: 15%;
+		width: 20%;
 		position: fixed;
 		z-index: 1;
 		top: 0;
 		left: 0;
 		overflow-x: hidden;
-		padding-top: 20px;
-    background-color: grey;
+    background-color: #2f4454;
 	}
 }
-
 
 #nav-link-list {
   list-style-type: none;
   margin: 0;
-  padding: 1.5em;
-  font-family: 'PT Sans', sans-serif;
+  padding: 0.75em 1.5em 0.75em 1.5em;
+  line-height: 3em;
+  font-size: 18px;
+}
+
+#nav-icon {
+  width: 60px;
+}
+
+#nav-header-text {
+  color: #f7df1d;
+  font-size: 30px;
+  padding-left: 1em;
 }
 
 main {
-  position: absolute;
-  left: 15%;
-  width: 80%;
-  padding: 2em;
-  font-family: 'PT Sans', sans-serif;
+  position: relative;
+  left: 18%;
+  width: 70%;
+  height: 100%;
+  margin: 2em 0 0 5em;
+  line-height: 1.4;
 }
 
+header {
+  font-size: 2em;
+  font-weight: 800;
+  color: #2f4454;
+}
+
+.main-section {
+  margin-bottom: 3em;
+}
+
+main section li {
+  margin-bottom: 0.75em;
+}
+
+code {
+  background-color: slategrey;
+  color: #FAD675;
+  line-height: 1.5em;
+  padding: 0.5em;
+}
+
+a:link {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #dddddd;
+}
+
+a:hover {
+  color: #FAD675;
+}
+
+a:active {
+  color: #dddddd;
+}
+
+li.reference-links a {
+  color: #586976;
+}
